@@ -19,14 +19,14 @@ This is an Arduino-based project designed to monitor and analyze the altitude of
 
 **Technical Highlights**
 
-*C++ and Arduino Framework: Developed in C++ with the Arduino framework, offering a powerful platform for embedded programming.
+* C++ and Arduino Framework: Developed in C++ with the Arduino framework, offering a powerful platform for embedded programming.
 
-*Object-Oriented Approach: Features classes and objects for managing the barometer sensor, data filtering, and state transitions, promoting code reusability and encapsulation.
+* Object-Oriented Approach: Features classes and objects for managing the barometer sensor, data filtering, and state transitions, promoting code reusability and encapsulation.
 
-*Modular Design: The codebase is divided into logical modules, each responsible for a specific aspect of the project, facilitating easy updates and maintenance.
+* Modular Design: The codebase is divided into logical modules, each responsible for a specific aspect of the project, facilitating easy updates and maintenance.
 
-*SPI Flash Memory Integration: Incorporates SPI Flash memory for robust data logging capabilities, allowing for extensive data collection and analysis.
+* SPI Flash Memory Integration: Incorporates SPI Flash memory for robust data logging capabilities, allowing for extensive data collection and analysis.
 
 **Getting Started**
 
-*To get started with this project, clone this repository and open the project in the Arduino IDE or a compatible editor. Ensure you have the Adafruit BMP280 and SPIMemory libraries installed. Upload the code to your Arduino board connected to the BMP280 sensor and SPI Flash memory module. Detailed setup instructions and wiring diagrams are provided in the repository.
+* To get started with this project, clone this repository and open the project in the Arduino IDE or a compatible editor. Ensure you have the Adafruit BMP280 and SPIMemory libraries installed. Upload the code to your Arduino board connected to the BMP280 sensor and SPI Flash memory module. Detailed setup instructions and wiring diagrams are provided in the repository.
