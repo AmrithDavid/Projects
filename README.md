@@ -1,32 +1,25 @@
-# Barometer
-**Overview**
+# Rocket Telemetry and Environmental Sensing Project
 
-This is an Arduino-based project designed to monitor and analyze the altitude of rockets in real-time. Utilizing the robust Adafruit BMP280 barometer sensor, this project captures precise atmospheric pressure readings, which are then converted to altitude measurements. These measurements are crucial for determining the rocket's launch state, monitoring its flight path, and confirming its landing. This is developed using C++ and embodies the principles of Object-Oriented Programming (OOP), ensuring a modular, reusable, and maintainable codebase.
+This repository contains the source code for an Arduino-based project aimed at capturing and analyzing telemetry and environmental data for rocket launches. The project utilizes various hardware components and programming concepts to achieve a comprehensive monitoring solution.
 
-**Features**
+**Key Features**
 
-* Real-Time Altitude Monitoring: Leverages the Adafruit BMP280 sensor to provide accurate altitude data by converting atmospheric pressure readings.
+Barometric Altitude Measurement: Utilizes the Adafruit BMP280 sensor to measure barometric pressure, from which altitude data is derived. This is crucial for determining the rocket's altitude during its flight.
+SPI Flash Memory Integration: Incorporates the SPIMemory library for SPI flash memory interaction, enabling the storage of telemetry data that can be analyzed post-flight.
+Sound Tones for Event Notification: Employs a tones library to generate sound tones, which are used to indicate different stages of the rocket's journey, such as launch readiness, launch detection, and landing.
+Telemetry Data Filtering: Implements a custom filtering class to calculate rolling averages of altitude measurements, ensuring more stable and accurate altitude data by mitigating sensor noise.
 
-* Launch Detection: Automatically detects the rocket's launch using altitude changes, transitioning the system's state accordingly.
+**Programming Concepts**
 
-* Flight Path Analysis: Continuously monitors the rocket during flight, providing valuable data on its ascent and descent.
+Object-Oriented Programming (OOP): The code extensively uses classes and objects (e.g., the Filter class for altitude filtering and instances of sensor objects) to encapsulate behaviors and manage state.
+Memory Management: Demonstrates dynamic memory allocation with pointers for managing hardware component interfaces, such as flash memory (SPIFlash* flash) and the barometric sensor (Adafruit_BMP280* barometer).
+Serial Communication: Utilizes Arduino's serial communication capabilities to output telemetry data and debugging information, enhancing the visibility of the rocket's state and sensor readings.
+Control Structures: Employs control structures such as loops, conditional statements, and switch cases (e.g., for handling different launch states) to control the flow of the program based on sensor inputs and system state.
+Data Structures: Makes use of arrays for data storage (e.g., rolling average calculations), structures for organizing related data (struct RocketState), and enums for defining state constants (enum LaunchState).
 
-* Landing Confirmation: Identifies the rocket's landing through altitude stabilization, marking the end of its journey.
+**Hardware Requirements**
 
-* Data Logging: Utilizes SPI Flash memory for efficient data storage and retrieval, enabling post-flight analysis.
-
-* OOP Design: Employs Object-Oriented Programming principles for a structured and scalable software architecture.
-
-**Technical Highlights**
-
-* C++ and Arduino Framework: Developed in C++ with the Arduino framework, offering a powerful platform for embedded programming.
-
-* Object-Oriented Approach: Features classes and objects for managing the barometer sensor, data filtering, and state transitions, promoting code reusability and encapsulation.
-
-* Modular Design: The codebase is divided into logical modules, each responsible for a specific aspect of the project, facilitating easy updates and maintenance.
-
-* SPI Flash Memory Integration: Incorporates SPI Flash memory for robust data logging capabilities, allowing for extensive data collection and analysis.
-
-**Getting Started**
-
-* To get started with this project, clone this repository and open the project in the Arduino IDE or a compatible editor. Ensure you have the Adafruit BMP280 and SPIMemory libraries installed. Upload the code to your Arduino board connected to the BMP280 sensor and SPI Flash memory module. Detailed setup instructions and wiring diagrams are provided in the repository.
+Arduino compatible microcontroller board
+Adafruit BMP280 barometric sensor
+SPI flash memory module
+Optional: Buzzer or speaker for sound notification
