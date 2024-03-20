@@ -7,7 +7,7 @@ This repository contains the source code for an Arduino-based project aimed at c
 **Key Features**
 
 
-**Barometric Altitude Measurement**: Utilizes the Adafruit BMP280 sensor to measure barometric pressure, from which altitude data is derived. This is crucial for determining the rocket's altitude during its flight.
+*Barometric Altitude Measurement*: Utilizes the Adafruit BMP280 sensor to measure barometric pressure, from which altitude data is derived. This is crucial for determining the rocket's altitude during its flight.
 
 **SPI Flash Memory Integration**: Incorporates the SPIMemory library for SPI flash memory interaction, enabling the storage of telemetry data that can be analyzed post-flight.
 
@@ -33,7 +33,7 @@ This repository contains the source code for an Arduino-based project aimed at c
 **Hardware Requirements**
 
 
-Arduino compatible microcontroller board
-Adafruit BMP280 barometric sensor
-SPI flash memory module
-Optional: Buzzer or speaker for sound notification
+- Arduino compatible microcontroller board
+- Adafruit BMP280 barometric sensor
+- SPI flash memory module
+- Optional: Buzzer or speaker for sound notification
