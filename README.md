@@ -1,7 +1,5 @@
 # Projects
 
-# Engineering Projects Repository
-
 This repository is dedicated to showcasing key engineering projects. These projects encompass diverse aspects of engineering from telemetry systems in rocketry to sophisticated control systems and embedded hardware applications.
 
 ## Table of Contents
