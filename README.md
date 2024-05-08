@@ -3,9 +3,9 @@
 Welcome! This repository showcases software projects that encompass diverse aspects of sofware development from telemetry systems in rocketry to sophisticated control systems and embedded hardware applications.
 
 # Table of Contents
-- [Rocket Telemetry and Environmental Sensing Project](#rocket-telemetry-and-environmental-sensing-project)
-- [Mechatronics Platform System](#mechatronics-platform-system)
-- [Step Tracker System](#step-tracker-system)
+- Rocket Telemetry and Environmental Sensing Project
+- Mechatronics Platform System
+- Step Tracker System
 
 
 
