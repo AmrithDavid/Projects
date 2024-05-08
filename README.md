@@ -1,4 +1,4 @@
-# Rocket Telemetry and Environmental Sensing Project
+# Projects
 
 
 This repository contains the source code for an Arduino-based project aimed at capturing and analyzing telemetry and environmental data for rocket launches. The project utilizes various hardware components and programming concepts to achieve a comprehensive monitoring solution.
