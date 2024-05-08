@@ -11,7 +11,7 @@ This folder contains a complete C++ program that controls Mechatronic platforms 
 - **Time Synchronization and Interpolation**: Utilize time-stamped data for accurate prediction and control over platform movements.
 - **Optimal Path Finding**: Implemented using graph data structures and search algorithms to determine efficient paths through goals.
 
-  ## Platforms Controlled
+## Platforms Controlled
 
 - **Quadcopter (Drone)**: Manages aerial navigation through specified waypoints.
 - **Audi R8 (Vehicle with Ackerman Steering)**: Handles ground navigation with precision steering control.
