@@ -24,8 +24,8 @@ This Arduino-based project captures and analyzes telemetry and environmental dat
 - **Serial Communication**: Employs serial outputs for real-time telemetry and diagnostic outputs.
 - **Control Structures and Data Structures**: Utilizes advanced programming constructs to manage data flow and sensor integration.
 
-### Hardware Requirements
+### Hardware 
 - Arduino compatible microcontroller board
 - Adafruit BMP280 barometric sensor
 - SPI flash memory module
-- Optional: Buzzer or speaker for sound notifications
+  
