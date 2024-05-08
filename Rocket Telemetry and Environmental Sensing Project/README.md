@@ -5,7 +5,7 @@
 This repository contains the source code for an Arduino-based project aimed at capturing and analyzing telemetry and environmental data for rocket launches. The project utilizes various hardware components and programming concepts to achieve a comprehensive monitoring solution.
 
 
-**Key Features**
+## Key Features
 
 
 **Barometric Altitude Measurement**: Utilizes the Adafruit BMP280 sensor to measure barometric pressure, from which altitude data is derived. This is crucial for determining the rocket's altitude during its flight.
@@ -17,7 +17,7 @@ This repository contains the source code for an Arduino-based project aimed at c
 **Telemetry Data Filtering**: Implements a custom filtering class to calculate rolling averages of altitude measurements, ensuring more stable and accurate altitude data by mitigating sensor noise.
 
 
-**Programming Concepts**
+## Programming Concepts
 
 
 **Object-Oriented Programming (OOP)**: The code extensively uses classes and objects (e.g., the Filter class for altitude filtering and instances of sensor objects) to encapsulate behaviors and manage state.
@@ -31,7 +31,7 @@ This repository contains the source code for an Arduino-based project aimed at c
 **Data Structures**: Makes use of arrays for data storage (e.g., rolling average calculations), structures for organizing related data (struct RocketState), and enums for defining state constants (enum LaunchState).
 
 
-**Hardware Requirements**
+## Hardware Requirements
 
 
 - Arduino compatible microcontroller board
