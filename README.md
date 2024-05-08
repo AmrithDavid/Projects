@@ -6,7 +6,7 @@ This repository is dedicated to showcasing key engineering projects. These proje
 
 ## Table of Contents
 - [Rocket Telemetry and Environmental Sensing Project](#rocket-telemetry-and-environmental-sensing-project)
-- [Quadcopter Control System](#quadcopter-control-system)
+- [Ackerman and Quadcopter Control System](#quadcopter-control-system)
 - [Step Tracker System](#step-tracker-system)
 
 ## Rocket Telemetry and Environmental Sensing Project
