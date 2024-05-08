@@ -8,6 +8,7 @@ This repository is dedicated to showcasing key engineering projects. These proje
 - [Step Tracker System](#step-tracker-system)
 
 
+
 # Rocket Telemetry and Environmental Sensing Project
 This Arduino-based project captures and analyzes telemetry and environmental data during rocket launches, using various sensors and data handling techniques.
 
@@ -27,6 +28,7 @@ This Arduino-based project captures and analyzes telemetry and environmental dat
 - Arduino compatible microcontroller board
 - Adafruit BMP280 barometric sensor
 - SPI flash memory module
+
 
 
 # Mechatronics Platform Controller
