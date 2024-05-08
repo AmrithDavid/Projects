@@ -4,7 +4,7 @@ Welcome! This repository showcases software projects that encompass diverse aspe
 
 # Table of Contents
 - [Rocket Telemetry and Environmental Sensing Project](#rocket-telemetry-and-environmental-sensing-project)
-- [Mechatronics Platform System](#quadcopter-control-system)
+- [Mechatronics Platform System](#mechatronics-platform-system)
 - [Step Tracker System](#step-tracker-system)
 
 
