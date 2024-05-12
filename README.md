@@ -5,7 +5,7 @@ Welcome! This repository showcases software projects that encompass diverse aspe
 # Table of Contents
 - Rocket Telemetry and Environmental Sensing Project
 - Mechatronics Platform System
-- Step Tracker System
+- Rocketry Data Analysis Tool
 
 
 
