@@ -1,4 +1,4 @@
-# Rocket Telemetry Data Analysis Tool
+# Rocket Data Analysis Tool
 
 ## Project Overview
 The Rocket Telemetry Data Analysis Tool leverages Python to import, process, analyze, and visualize telemetry data from rocket launches. This tool is built to provide in-depth insights into rocket performance metrics such as altitude, velocity, and acceleration.
